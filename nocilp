@@ -1,0 +1,17 @@
+{{Source topicon}}
+
+{{Command|noclip}}, also known as fly and ghost, is a cheat that disables the effect of gravity and makes the player nonsolid (although still vulnerable to death). This allows the player to glide freely through the world.
+
+{{ModernWarning|Noclipping absurdly far outside the map causes a crash. This may also occur if {{Code|sv_noclipspeed}} is set too high.}}
+{{Note|Floating point inaccuracies on all model vertices will be exaggerated as the player travels farther from the map's origin.}}
+{{Note|In {{css|4|nt=1}} and {{csgo|4|nt=1}}, being in noclip mode makes you unkillable, similar to godmode.}}
+{{ModernTodo|Check if noclip godmode applies for anything else.}}
+
+== Server variables ==
+* {{Code|hap_noclip_avatar_scale}} - {{ModernTodo}} ?
+* {{Code|sv_noclipspeed}} - The maximum speed the player can move during {{Command|noclip}}. Default 5.
+* {{Code|sv_noclipaccelerate}} - The speed at which the player accelerates to {{Code|sv_noclipspeed}}. Default 5.
+* {{Code|sv_specnoclip}} - If spectating players are allowed to {{Command|noclip}} around to anywhere in a map.
+* {{Code|sv_noclipduringpause}} - If set, player can {{Command|noclip}} while the game is [[pause|paused]]. Bugged in some games.
+
+[[Category:Console Commands]]
